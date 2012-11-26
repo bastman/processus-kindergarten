@@ -1,0 +1,34 @@
+{
+    "name":"bastman/processus-kindergarten",
+    "type":"library",
+    "description":"json rpc pipe",
+    "keywords":["library", "processus", "bootstrapping"],
+    "homepage":"http://github.com/bastman/processus-kindergarten",
+    "license":"MIT",
+    "support":{
+        "issues":"https://github.com/bastman/processus-kindergarten/issues"
+    },
+    "authors":[
+        {
+            "name":"Sebastian Schmidt",
+            "email":"sebastian.schmidt@crowdpark.com",
+            "homepage":"http://www.crowdpark.com",
+            "role":"Developer"
+        }
+    ],
+    "autoload":{
+        "psr-0":{
+            "Processus\\":"src",
+            "HelloworldExample\\":"example/helloworld"
+        }
+    },
+    "require":{
+        "php":">=5.3.3"
+    },
+
+    "repositories":[
+
+    ],
+
+    "minimum-stability":"dev"
+}
